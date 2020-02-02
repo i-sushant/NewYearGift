@@ -16,7 +16,4 @@ public abstract class Chocolate extends Sweets{
 		this.cocoaContent = cocoaContent;
 	}
 	
-	public int compareTo(Chocolate otherChocolate) {
-		return this.price - otherChocolate.price;	
-	}
 }
