@@ -17,7 +17,7 @@ public class Gift {
 	
 	public void addSweet(Sweets sweet) {
 		sweets.add(sweet);
-		this.weight = sweet.getWeight(); 
+		this.weight += sweet.getWeight(); 
 	}
 	
 	public void sortGiftContent() {
