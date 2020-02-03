@@ -22,7 +22,7 @@ public class Gift {
 	
 	public void sortGiftContent() {
         Collections.sort(sweets);
-        System.out.println(("Gift by sorted by price: "));
+        System.out.println(("Gift by sorted by weight: "));
     }
 	
 	public float getTotalWeight() {
