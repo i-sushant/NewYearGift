@@ -14,9 +14,5 @@ public abstract class Chocolate extends Sweets{
 
 	public void setCocoaContent(float cocoaContent) {
 		this.cocoaContent = cocoaContent;
-	}
-	
-	public int compareTo(Chocolate otherChocolate) {
-		return this.price - otherChocolate.price;	
-	}
+	}	
 }
