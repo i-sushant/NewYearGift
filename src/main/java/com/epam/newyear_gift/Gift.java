@@ -17,12 +17,12 @@ public class Gift {
 	
 	public void addSweet(Sweets sweet) {
 		sweets.add(sweet);
-		this.weight = sweet.getWeight(); 
+		this.weight += sweet.getWeight(); 
 	}
 	
 	public void sortGiftContent() {
         Collections.sort(sweets);
-        System.out.println(("Gift by sorted by price: "));
+        System.out.println(("Gift by sorted by weight: "));
     }
 	
 	public float getTotalWeight() {

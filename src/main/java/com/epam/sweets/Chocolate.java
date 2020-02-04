@@ -14,5 +14,10 @@ public abstract class Chocolate extends Sweets{
 
 	public void setCocoaContent(float cocoaContent) {
 		this.cocoaContent = cocoaContent;
+<<<<<<< HEAD
 	}	
+=======
+	}
+	
+>>>>>>> 0cb3a3051c0575609db815b093c89f5b721f0302
 }
